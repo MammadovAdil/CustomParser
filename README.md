@@ -1,4 +1,8 @@
-﻿Implement your HTML parser classes from `IHtmlParser<>` interface.
+# Ma.CustomParser
+
+Custom parsers to help to parse HTML and JSON content. 
+
+Implement your HTML parser classes from `IHtmlParser<>` interface.
 Implement your Json parser classes from `IJsonParser<>` interface.
 
 Add following method to the project where you have html or json parser classes,
