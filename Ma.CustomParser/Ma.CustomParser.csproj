@@ -45,9 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAsyncHtmlParser.cs" />
+    <Compile Include="Abstract\IAsyncJsonParser.cs" />
     <Compile Include="Abstract\IHtmlParser.cs" />
     <Compile Include="Abstract\IJsonParser.cs" />
     <Compile Include="CustomParser.cs" />
+    <Compile Include="ICustomParser.cs" />
     <Compile Include="Models\CustomParserConfiguration.cs" />
     <Compile Include="Models\CustomParserStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

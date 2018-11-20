@@ -11,7 +11,7 @@
     <iconUrl>https://cdn4.iconfinder.com/data/icons/file-names-vol-3-4/512/49-128.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Custom parsers to help to parse HTML and JSON content. </description>
-    <releaseNotes>First release.</releaseNotes>
+    <releaseNotes>Add support for async parsing.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Parser Html Json</tags>
 
