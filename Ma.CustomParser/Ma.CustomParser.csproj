@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
@@ -15,13 +15,13 @@
     <Copyright>Copyright 2023</Copyright>
     <PackageProjectUrl>https://github.com/MammadovAdil/CustomParser</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MammadovAdil/CustomParser</RepositoryUrl>
-    <PackageReleaseNotes>Migrate to .Net 7</PackageReleaseNotes>
+    <PackageReleaseNotes>Upgrade to .Net 9</PackageReleaseNotes>
     <Title>CustomParser by Adil Mammadov</Title>
     <PackageTags>parser;html;json</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseFile>License.md</PackageLicenseFile>
-    <Version>2.0.0</Version>
+    <Version>9.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -44,6 +44,6 @@
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.71" />
   </ItemGroup>
 </Project>
